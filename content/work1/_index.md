@@ -1,17 +1,28 @@
 +++
-title = "ECS"
+title = "Creating a Glue Data Crawler"
 date = 2021-02-17T17:04:42-06:00
 weight = 2
 chapter = false
 pre = "<b>1. </b>"
 +++
 
-## Building and deploying a containerized application with AWS ECS
+## Lab 1: Creating a Glue Data Crawler
 
-In this Lab you will learn how to use Amazon Elastic Container Service (ECS) using AWS Fargate as the deployment platform. AWS Fargate is a compute engine for Amazon ECS/EKS that runs containers without requiring you to deploy or manage the underlying Amazon EC2 instances. With Fargate, you specify an image to deploy and the amount of CPU and memory it requires. Fargate handles the updating and securing of the underlying Linux OS, Docker daemon, and ECS agent as well as all the infrastructure capacity management and scaling.
+### Overview
 
-You will create an ECS cluster, a task definition, an Application Load Balancer and a service using AWS Fargate. You will do those activities using the AWS Management Console. At the end of this Lab, you will have a web page running on Amazon ECS with AWS Fargate. 
+UnicornNation is a global entertainment company that provides ticketing, merchandising and promotion of large concerts and events. 
 
-The following is the architecture that you will build in this Lab:
+In recent years, they have been collecting data through a number of disparate systems and want to consolidate this data in a modern data architecture.
 
-<img src="images/Picture1.png" alt="drawing" width="500"/>
+A workshop was held with the key stakeholders in UnicornNation and they identified three key data sources they would like to consolidate and have provided the funding and resources to build a Data Lake on AWS. 
+
+During the course of this bootcamp, you will be building a Data Lake on AWS to meet their requirements and gain experience with a number of core AWS services, including S3, Glue, Athena, Redshift, Redshift Spectrum and QuickSight.
+
+**UnicornNation Target Architecture**
+
+<img src="images/AWSBigData_ProServ_Datalake_Lab_Architecture.png" alt="drawing" width="700"/>
+
+*About the Labs*
+
+With the following labs you will get hands-on experience with some of the key AWS services that underpin a Data Lake implementation. The labs are provided with step-by-step instructions that will help you use each service to build the basic build blocks of a data lake.
+For the labs, you will be using your own computer and logging in to an AWS console through your web browser. 
