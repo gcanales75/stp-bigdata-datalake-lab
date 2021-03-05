@@ -1,5 +1,5 @@
 +++ 
-title = "Task 1: Querying adta with Amazon Athena" 
+title = "Task 1: Querying data with Amazon Athena" 
 chapter = false 
 weight = 1 
 +++
